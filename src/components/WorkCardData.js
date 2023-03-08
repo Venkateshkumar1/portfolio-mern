@@ -34,6 +34,14 @@ const ProjectCardData = [
         frontend :"https://www.google.com/",
         backend :"https://www.google.com/"
     },
+    {
+        imgsrc : pro1,
+        title : "Project5",
+        text : "lorem-ipsum is a JavaScript module for generating passages of lorem ipsum text. Lorem ipsum text is commonly used as placeholder text in publishing, graphic design, and web development. lorem-ipsum is compatible with the browser, Node. JS, and React Native",
+        frontend :"https://www.google.com/",
+        backend :"https://www.google.com/"
+    },
+
 ];
 
 export default ProjectCardData;
