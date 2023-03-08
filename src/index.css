@@ -21,10 +21,10 @@ ul{
 }
 
 .btn{
-  padding: 12px 32px;
+  padding: 10px 30px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(248, 217, 15);
+  background: rgb(248, 215, 1);
   color: #222;
   border: 1px solid #fff;
   font-weight: 600;

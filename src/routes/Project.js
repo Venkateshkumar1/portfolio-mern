@@ -1,8 +1,19 @@
 import React from 'react';
 
+import Footer from '../components/Footer';
+import HeroImg from '../components/HeroImg';
+import Navbar from '../components/Navbar';
+import Work from '../components/Work';
+
+
 const Project = () => {
   return (
-    <div>Project</div>
+    <div>
+      <Navbar/>
+      <HeroImg heading="PROJECTS" text="Some of my most recent works"/>
+      <Work/>
+      <Footer/>
+    </div>
   )
 }
 

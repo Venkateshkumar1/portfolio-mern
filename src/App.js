@@ -5,12 +5,11 @@ import About from './routes/About';
 import Skills from './routes/Skills';
 import Project from './routes/Project';
 import Contact from './routes/Contact';
-import './App.css';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-     <div className='Header'>
+    <>
      <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/project" element={<Project/>} />
@@ -18,7 +17,7 @@ function App() {
       <Route path="/skills" element={<Skills/>} />
       <Route path="/contact" element={<Contact/>} />
      </Routes>
-   </div>
+   </>
 );
 };
 

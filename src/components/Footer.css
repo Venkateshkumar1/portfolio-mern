@@ -1,0 +1,47 @@
+.footer{
+   width: 100%;
+   padding: 8rem;
+   background-color: rgba(19, 19, 19, 0.8);
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.left{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.location{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.email{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.email h4{
+    display: flex;
+}
+
+.phone{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+
+.location p{
+    line-height: 30px;
+}
+
+.social{
+   display: flex;
+   margin-top: 6rem;
+}
